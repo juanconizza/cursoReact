@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import "bootstrap"
 
 
 function App() {
@@ -57,7 +58,7 @@ console.log(mayorA2);
   // Acá usamos la parte grafica luego del return para el DOM
   return (
     <>
-    <h1 className='border'>Hola Mundo</h1>
+    <h1>Hola Mundo</h1>
     
         </>
   )
